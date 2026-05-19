@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Weather X</title>
+
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
+
+</head>
+<body>
+
+<div id="rain"></div>
+
+<div class="container">
+
+    <div class="top-bar">
+        <h2>🌍 Weather X</h2>
+        <button id="toggle">🌙</button>
+    </div>
+
+    <div class="search_box">
+        <input type="text" id="city" placeholder="Search city..." />
+        <button id="search">🔍</button>
+        <button id="voice">🎙</button>
+    </div>
+
+    <div id="show"></div>
+    <div id="map"></div>
+
+</div>
+
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
